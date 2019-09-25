@@ -1,0 +1,20 @@
+body{
+    background-color: yellow;
+}
+.inbox{
+    max-width: 400px;
+    background: white;
+    border-radius: 5%;
+    margin: 50px auto;
+}
+.item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+input:checked + label{
+    text-decoration: line-through;
+}
+input[type="checkbox"]{
+    margin: 20px;
+}
